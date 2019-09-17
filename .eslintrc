@@ -1,0 +1,65 @@
+{
+  "extends": [
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "import",
+    "react",
+    "@typescript-eslint"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./build/webpack/webpack.eslint.js",
+        "config-index": 1
+      }
+    },
+    "import/ignore": [
+      "node_modules",
+      ".png$",
+      ".jpg$"
+    ]
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "import/no-unresolved": "off",
+    "import/no-duplicates": "off",
+    "import/no-named-as-default": "off",
+    "max-len": "off",
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": 0,
+    "import/prefer-default-export": "off",
+    "react/forbid-prop-types": "off",
+    "react/prop-types": 0,
+    "react/no-danger": "off",
+    "react/require-default-props": "off",
+    "react/no-array-index-key": "off",
+    "no-use-before-define": 0,
+    "import/namespace": "off",
+    "import/named": "off",
+    "import/default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/interface-name-prefix": "off"
+  }
+}
