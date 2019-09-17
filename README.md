@@ -6,7 +6,7 @@ It's a simple variation of Sitecore JSS template for React that supports TypeScr
 - TypeScript configuration for source and manifest files
 - Sitecore JSS Helix scaffolder for React-TypeScript components and modules
 - Helix folder structure
-- Absolute paths for Foundation, Feature and Project layers.
+- Absolute paths for imports modules from Foundation, Feature and Project layers.
 - ESLint configuration extended by @typescript-eslint plugin
 - Sitecore JSS v12
 - TypeScript v3.6.3
