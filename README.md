@@ -152,5 +152,5 @@ import TestComponent from 'Feature/TestModule/components/TestComponent';
 - [Helix and Sitecore JavaScript Services (JSS)](https://www.jflh.ca/2018-10-13-helix-and-sitecore-javascript-services)
 - [Developing React components in Typescript with Sitecore JSS 9.1](https://www.sergevandenoever.nl/sitecore_jss_typescript/)
 
-# Authors
-- Lukasz Wardzala - [github]()
+## Authors
+- Lukasz Wardzala - [github](https://github.com/lwardzala)
